@@ -1,0 +1,149 @@
+{
+    setupIntent:{
+        id: "seti_1GL1Q3BPSoAou5paNDhNEl8U"
+        object: "setup_intent"
+        application: null
+        cancellation_reason: null
+        client_secret: "seti_1GL1Q3BPSoAou5paNDhNEl8U_secret_Gsn0o8ggtnXBXDU1cR4hndFpokWVFQL"
+        created: 1583821103
+        customer: "cus_GsZHGJ8NVEF1bg"
+        description: null
+        last_setup_error: null
+        livemode: false
+        mandate: null
+        metadata: {}
+        next_action: null
+        on_behalf_of: null
+        payment_method: "pm_1GL1QyBPSoAou5paHXXpkQr2"
+        payment_method_options: {card: {…}}
+        payment_method_types: ["card"]
+        single_use_mandate: null
+        status: "succeeded"
+        usage: "off_session"
+        __proto__: Object
+        __proto__: Object
+    }
+}
+
+Stripe\Collection Object
+(
+    [object] => list
+    [data] => Array
+        (
+            [0] => Stripe\PaymentMethod Object
+                (
+                    [id] => pm_1GL1QyBPSoAou5paHXXpkQr2
+                    [object] => payment_method
+                    [billing_details] => Stripe\StripeObject Object
+                        (
+                            [address] => Stripe\StripeObject Object
+                                (
+                                    [city] => 
+                                    [country] => 
+                                    [line1] => 
+                                    [line2] => 
+                                    [postal_code] => 24215
+                                    [state] => 
+                                )
+
+                            [email] => 
+                            [name] => nitin singh 
+                            [phone] => 
+                        )
+
+                    [card] => Stripe\StripeObject Object
+                        (
+                            [brand] => visa
+                            [checks] => Stripe\StripeObject Object
+                                (
+                                    [address_line1_check] => 
+                                    [address_postal_code_check] => pass
+                                    [cvc_check] => pass
+                                )
+
+                            [country] => FR
+                            [exp_month] => 4
+                            [exp_year] => 2042
+                            [fingerprint] => t3YiZAfE31FDwBPF
+                            [funding] => credit
+                            [generated_from] => 
+                            [last4] => 3155
+                            [three_d_secure_usage] => Stripe\StripeObject Object
+                                (
+                                    [supported] => 1
+                                )
+
+                            [wallet] => 
+                        )
+
+                    [created] => 1583821160
+                    [customer] => cus_GsZHGJ8NVEF1bg
+                    [livemode] => 
+                    [metadata] => Stripe\StripeObject Object
+                        (
+                        )
+
+                    [type] => card
+                )
+
+            [1] => Stripe\PaymentMethod Object
+                (
+                    [id] => pm_1GL1EkBPSoAou5paHQytrgcY
+                    [object] => payment_method
+                    [billing_details] => Stripe\StripeObject Object
+                        (
+                            [address] => Stripe\StripeObject Object
+                                (
+                                    [city] => 
+                                    [country] => 
+                                    [line1] => 
+                                    [line2] => 
+                                    [postal_code] => 42424
+                                    [state] => 
+                                )
+
+                            [email] => 
+                            [name] => safsfsaf
+                            [phone] => 
+                        )
+
+                    [card] => Stripe\StripeObject Object
+                        (
+                            [brand] => visa
+                            [checks] => Stripe\StripeObject Object
+                                (
+                                    [address_line1_check] => 
+                                    [address_postal_code_check] => pass
+                                    [cvc_check] => pass
+                                )
+
+                            [country] => US
+                            [exp_month] => 4
+                            [exp_year] => 2024
+                            [fingerprint] => iwaEuG5K8mZg3wDG
+                            [funding] => credit
+                            [generated_from] => 
+                            [last4] => 4242
+                            [three_d_secure_usage] => Stripe\StripeObject Object
+                                (
+                                    [supported] => 1
+                                )
+
+                            [wallet] => 
+                        )
+
+                    [created] => 1583820402
+                    [customer] => cus_GsZHGJ8NVEF1bg
+                    [livemode] => 
+                    [metadata] => Stripe\StripeObject Object
+                        (
+                        )
+
+                    [type] => card
+                )
+
+        )
+
+    [has_more] => 
+    [url] => /v1/payment_methods
+)
